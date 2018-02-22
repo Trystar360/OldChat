@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/fredertr20/Desktop/Eclipse/Chat2/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/fredertr20/Desktop/Eclipse/Chat2/controlsfx-8.40.14.jar"/>
+	<classpathentry kind="lib" path="/Users/fredertr20/Desktop/Eclipse/Chat2/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

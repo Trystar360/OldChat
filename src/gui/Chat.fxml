@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="409.0" prefWidth="722.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9">
+   <children>
+      <AnchorPane layoutX="-18.0" layoutY="-17.0" prefHeight="416.0" prefWidth="722.0" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextArea layoutX="14.0" layoutY="52.0" prefHeight="305.0" prefWidth="480.0" />
+            <JFXTextField fx:id="msgFld" focusColor="BLACK" labelFloat="true" layoutX="14.0" layoutY="369.0" prefHeight="27.0" prefWidth="393.0" promptText="Message" />
+            <JFXButton fx:id="sendBtn" layoutX="419.0" layoutY="364.0" prefHeight="37.0" prefWidth="75.0" ripplerFill="WHITE" style="-fx-background-color: #686868#686868 #686868#686868;" text="Send" textFill="WHITE" />
+            <Text layoutX="14.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat:" wrappingWidth="479.9999973475933">
+               <font>
+                  <Font name="Monospaced Regular" size="29.0" />
+               </font>
+            </Text>
+            <JFXListView layoutX="508.0" layoutY="49.0" prefHeight="305.0" prefWidth="200.0" />
+            <JFXButton fx:id="fileBtn" layoutX="508.0" layoutY="364.0" prefHeight="37.0" prefWidth="75.0" ripplerFill="WHITE" style="-fx-background-color: #686868#686868 #686868#686868;" text="File" textFill="WHITE" />
+            <JFXButton fx:id="exportBtn" layoutX="631.0" layoutY="364.0" prefHeight="37.0" prefWidth="75.0" ripplerFill="WHITE" style="-fx-background-color: #686868#686868 #686868#686868;" text="Export" textFill="WHITE" />
+            <JFXButton fx:id="disconnectBtn" layoutX="508.0" layoutY="12.0" prefHeight="35.0" prefWidth="90.0" ripplerFill="WHITE" style="-fx-background-color: #686868#686868 #686868#686868;" text="Disconnect" textFill="WHITE" />
+            <JFXButton fx:id="settingsBtn" layoutX="616.0" layoutY="13.0" prefHeight="35.0" prefWidth="90.0" ripplerFill="WHITE" style="-fx-background-color: #686868#686868 #686868#686868;" text="Settings" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
